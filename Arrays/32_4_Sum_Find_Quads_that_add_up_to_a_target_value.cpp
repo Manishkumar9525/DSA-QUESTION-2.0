@@ -2,7 +2,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// Question: Find all unique quadruplets in an array whose sum is equal to a target value.
+// Question: 4SUM Find all unique quadruplets in an array whose sum is equal to a target value.
 //
 // Input:
 // 6
@@ -11,7 +11,7 @@ using namespace std;
 //
 // Output:
 // [-2, -1, 1, 2]
-// [-2, 0, 0, 2]
+// [-2, 0, 0, 2]generate new file in this name Kadane's Algorithm : Maximum Subarray Sum in an Array and in file just simple create example (in this write question ) with input or output and simple #include<iostream> ,usingname space ,int main not more then that not create solution
 // [-1, 0, 0, 1]
 
 
