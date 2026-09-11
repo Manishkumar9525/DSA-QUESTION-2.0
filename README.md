@@ -25,13 +25,20 @@ The main goal of this repository is to:
 DSA-QUESTION-2.0/
 │
 ├── Arrays/
-│   ├── ...
-│   └── ...
+│   └── Array and matrix problems
+│
+├── Binary_search/
+│   └── Binary search problems
 │
 ├── arrays1.c++
 │
 └── README.md
 ```
+
+### Topic Index
+
+* [Arrays](Arrays/) — array, matrix, subarray, and hashing problems
+* [Binary Search](Binary_search/) — searching and sorted-array problems
 
 The repository will continue to grow as new DSA topics and problems are added.
 
@@ -71,6 +78,24 @@ The repository will continue to grow as new DSA topics and problems are added.
 
 ---
 
+## ▶️ How to Run a Solution
+
+Each problem is stored as a separate C++ source file. Compile and run the file you want to practice:
+
+```bash
+g++ Arrays/01_FindLarge_Element.cpp -o solution
+./solution
+```
+
+On Windows, run the generated executable with:
+
+```powershell
+g++ Arrays/01_FindLarge_Element.cpp -o solution.exe
+.\solution.exe
+```
+
+---
+
 ## 💻 Language
 
 The problems in this repository are primarily implemented using:
@@ -107,9 +132,9 @@ This repository is continuously updated as I practice new DSA problems.
 
 | Topic               | Status         |
 | ------------------- | -------------- |
-| Arrays              | 🟡 In Progress |
+| Arrays              | ✅ Completed   |
 | Strings             | ⬜ Upcoming     |
-| Searching           | ⬜ Upcoming     |
+| Binary Search       | 🟡 In Progress |
 | Sorting             | ⬜ Upcoming     |
 | Recursion           | ⬜ Upcoming     |
 | Linked List         | ⬜ Upcoming     |
