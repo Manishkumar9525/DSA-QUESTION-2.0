@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-class Solution {
-public:
+
+
     // Function to find a peak element using binary search
     int findPeakElement(vector<int>& nums) {
         // Set left and right bounds
@@ -26,17 +26,14 @@ public:
         // Return peak index
         return low;
     }
-};
 
 int main() {
     // Input array
     vector<int> nums = {1, 2, 1, 3, 5, 6, 4};
 
-    // Create object
-    Solution obj;
-
     // Output result
-    cout << obj.findPeakElement(nums) << endl;
+    int result=findPeakElement(nums);
+    cout <<result << endl;
 
     return 0;
 }
