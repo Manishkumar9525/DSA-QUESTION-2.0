@@ -38,7 +38,7 @@ int Allocate_Minimum_Number_of_Pages(const vector<int>& pages, int students) {
 
 int main() {
     vector<int> pages{12, 34, 67, 90};
-    int students = 2;
+    int students = 2;  
 
     cout << Allocate_Minimum_Number_of_Pages(pages, students);
     return 0;
