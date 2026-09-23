@@ -30,15 +30,21 @@ DSA-QUESTION-2.0/
 ├── Binary_search/
 │   └── Binary search problems
 │
+├── string/
+│   └── String and pattern-based problems
+│
 ├── arrays1.c++
 │
-└── README.md
+├── README.md
+│
+└── .gitignore (if present)
 ```
 
 ### Topic Index
 
 * [Arrays](Arrays/) — array, matrix, subarray, and hashing problems
 * [Binary Search](Binary_search/) — searching and sorted-array problems
+* [String](string/) — string manipulation, pattern matching, and substring problems
 
 The repository will continue to grow as new DSA topics and problems are added.
 
@@ -133,8 +139,8 @@ This repository is continuously updated as I practice new DSA problems.
 | Topic               | Status         |
 | ------------------- | -------------- |
 | Arrays              | ✅ Completed   |
-| Strings             | ⬜ Upcoming     |
-| Binary Search       | 🟡 In Progress |
+| Strings             | 🟡 In Progress |
+| Binary Search       | ✅ Completed   |
 | Sorting             | ⬜ Upcoming     |
 | Recursion           | ⬜ Upcoming     |
 | Linked List         | ⬜ Upcoming     |
