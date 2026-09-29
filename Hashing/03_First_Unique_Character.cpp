@@ -23,7 +23,7 @@ int First_Unique_Character(string s){
 
 int main()
 {
-  string s="zzzzx";
+  string s="vvffwfgfty";
   int result=First_Unique_Character(s);
   cout<<result;
     return 0;
