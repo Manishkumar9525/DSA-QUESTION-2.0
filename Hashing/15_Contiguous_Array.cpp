@@ -1,43 +1,36 @@
-// #include <iostream>
-// #include <vector>
-// #include <unordered_map>
-// using namespace std;
+#include <bits/stdc++.h>
+using namespace std;
 
-// int Binary_Subarrays_With_Sum(vector<int> nums, int goal) {
+// Question: Count binary subarrays whose sum equals goal.
+// Input: nums = {1, 0, 1, 0, 1}, goal = 2
+// Output: 4
 
-//     unordered_map<int, int> mp;
+int Binary_Subarrays_With_Sum(const vector<int>& nums, int goal) {
+    unordered_map<int, int> prefixFrequency;
+    prefixFrequency[0] = 1;
 
-//     // prefix sum 0 has occurred once
-//     mp[0] = 1;
+    int prefixSum = 0;
+    int count = 0;
 
-//     int prefixSum = 0;
-//     int count = 0;
+    for (int value : nums) {
+        prefixSum += value;
 
-//     for(int i = 0; i < nums.size(); i++) {
+        auto previous = prefixFrequency.find(prefixSum - goal);
+        if (previous != prefixFrequency.end()) {
+            count += previous->second;
+        }
 
-//         prefixSum += nums[i];
+        prefixFrequency[prefixSum]++;
+    }
 
-//         int needed = prefixSum - goal;
+    return count;
+}
 
-//         if(mp.find(needed) != mp.end()) {
+int main() {
+    vector<int> nums = {1, 0, 1, 0, 1};
+    int goal = 2;
 
-//             count += mp[needed];
-//         }
+    cout << Binary_Subarrays_With_Sum(nums, goal);
 
-//         mp[prefixSum]++;
-//     }
-
-//     return count;
-// }
-
-// int main() {
-
-//     vector<int> nums = {1,0,1,0,1};
-//     int goal = 2;
-
-//     int result = Binary_Subarrays_With_Sum(nums, goal);
-
-//     cout << result;
-
-//     return 0;
-// }
+    return 0;
+}
