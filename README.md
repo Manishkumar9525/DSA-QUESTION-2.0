@@ -22,31 +22,37 @@ The main goal of this repository is to:
 ## 📂 Repository Structure
 
 ```text
-DSA-QUESTION-2.0/
+ARRAY/
 │
-├── Arrays/
-│   └── Array and matrix problems
+├── Arrays/                 (37 solutions)
+│   └── Array, matrix, and subarray problems
 │
-├── Binary_search/
-│   └── Binary search problems
+├── Binary_search/          (27 solutions)
+│   └── Binary search and sorted-array problems
 │
-├── string/
+├── Hashing/                (16 solutions)
+│   └── Hashing and frequency-based problems
+│
+├── string/                 (26 solutions)
 │   └── String and pattern-based problems
 │
-├── arrays1.c++
+├── Two_Pointer/            (5 solutions)
+│   └── Two-pointer problems
 │
-├── README.md
+├── arrays1.c++             (standalone practice file)
 │
-└── .gitignore (if present)
+└── README.md
 ```
 
 ### Topic Index
 
-* [Arrays](Arrays/) — array, matrix, subarray, and hashing problems
-* [Binary Search](Binary_search/) — searching and sorted-array problems
-* [String](string/) — string manipulation, pattern matching, and substring problems
+* [Arrays](Arrays/) — 37 array, matrix, and subarray problems
+* [Binary Search](Binary_search/) — 27 searching and sorted-array problems
+* [Hashing](Hashing/) — 16 hashing and frequency-based problems
+* [String](string/) — 26 string manipulation and pattern-matching problems
+* [Two Pointer](Two_Pointer/) — 5 problems solved using two-pointer techniques
 
-The repository will continue to grow as new DSA topics and problems are added.
+The folder currently contains **111 C++ solutions** across five topic directories.
 
 ---
 
@@ -81,6 +87,16 @@ The repository will continue to grow as new DSA topics and problems are added.
 * Prefix Sum
 
 > More topics will be added as I progress through my DSA journey.
+
+---
+
+## 👥 Two-Pointer Problems
+
+* [Valid Palindrome](Two_Pointer/01_Valid_Palindrome.cpp)
+* [Reverse String](Two_Pointer/02_Reverse_String.cpp)
+* [Reverse Vowels of a String](Two_Pointer/03_Reverse_Vowels_of_a_String.cpp)
+* [Valid Palindrome II](Two_Pointer/04_Valid_Palindrome_II.cpp)
+* [Two Sum II - Input Array Is Sorted](Two_Pointer/05_Two_Sum_II.cpp) — find two numbers in a sorted array that add up to a target
 
 ---
 
@@ -134,13 +150,15 @@ The aim is not just to write code, but to understand **why the solution works**.
 
 ## 📈 Progress
 
-This repository is continuously updated as I practice new DSA problems.
+This repository is continuously updated as new DSA solutions are added.
 
 | Topic               | Status         |
 | ------------------- | -------------- |
-| Arrays              | ✅ Completed   |
+| Arrays              | 🟡 In Progress |
+| Binary Search       | 🟡 In Progress |
+| Hashing             | 🟡 In Progress |
 | Strings             | 🟡 In Progress |
-| Binary Search       | ✅ Completed   |
+| Two Pointer         | 🟡 In Progress |
 | Sorting             | ⬜ Upcoming     |
 | Recursion           | ⬜ Upcoming     |
 | Linked List         | ⬜ Upcoming     |
